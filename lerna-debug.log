@@ -1,0 +1,30 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/opt/homebrew/bin/lerna',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/mirkozlatunic/Coding lessons/TS lessons/jbook-app
+3 info Executing command in 3 packages: "npm run start"
+4 silly npmRunScript.stream [ 'start', [], 'cli' ]
+5 silly getExecOpts /Users/mirkozlatunic/Coding lessons/TS lessons/jbook-app/packages/cli undefined
+6 silly npmRunScript.stream [ 'start', [], 'local-api' ]
+7 silly getExecOpts /Users/mirkozlatunic/Coding lessons/TS lessons/jbook-app/packages/local-api undefined
+8 silly npmRunScript.stream [ 'start', [], 'local-client' ]
+9 silly getExecOpts /Users/mirkozlatunic/Coding lessons/TS lessons/jbook-app/packages/local-client undefined
+10 error Error: Command failed: npm run start
+10 error
+10 error
+10 error > cli@1.0.0 start
+10 error > tsc --watch --preserveWatchOutput
+10 error
+10 error
+10 error 1:14:54 PM - Starting compilation in watch mode...
+10 error
+10 error
+10 error 1:14:56 PM - Found 0 errors. Watching for file changes.
+10 error
+10 error     at makeError (/opt/homebrew/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+10 error     at /opt/homebrew/lib/node_modules/lerna/node_modules/execa/index.js:278:16
