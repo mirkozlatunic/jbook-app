@@ -1,19 +1,6 @@
-0 silly argv {
-0 silly argv   _: [ 'publish' ],
-0 silly argv   push: false,
-0 silly argv   composed: 'publish',
-0 silly argv   lernaVersion: '3.22.1',
-0 silly argv   '$0': '/opt/homebrew/bin/lerna'
-0 silly argv }
-1 notice cli v3.22.1
-2 verbose rootPath /Users/mirkozlatunic/Coding lessons/TS lessons/jbook-app
-3 error Error: Invalid package name "jsnote-zlm/local-client": name can only contain URL-friendly characters
-3 error     at invalidPackageName (/opt/homebrew/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:86:15)
-3 error     at Result.setName (/opt/homebrew/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:121:11)
-3 error     at new Result (/opt/homebrew/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:111:23)
-3 error     at Function.resolve (/opt/homebrew/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:58:15)
-3 error     at /opt/homebrew/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:61:30
-3 error     at Array.forEach (<anonymous>)
-3 error     at /opt/homebrew/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:55:38
-3 error     at PackageGraph.forEach (<anonymous>)
-3 error     at new PackageGraph (/opt/homebrew/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:44:10)
+32 error Error: Command failed: git add -- packages/local-client/package.json packages/local-client/package-lock.json packages/local-api/package.json packages/local-api/package-lock.json packages/cli/package.json packages/cli/package-lock.json lerna.json
+32 error fatal: Pathspec 'packages/local-client/package.json' is in submodule 'packages/local-client'
+32 error
+32 error     at makeError (/opt/homebrew/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+32 error     at /opt/homebrew/lib/node_modules/lerna/node_modules/execa/index.js:278:16
+32 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

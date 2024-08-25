@@ -20,10 +20,10 @@
     "@jsnote-zlm/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.5.0",
-    "esbuild": "0.8.26",
-    "typescript": "^5.5.4",
     "@jsnote-zlm/local-api": "^1.0.0",
-    "commander": "^12.1.0"
+    "@types/node": "^22.5.0",
+    "commander": "^12.1.0",
+    "esbuild": "0.8.26",
+    "typescript": "^5.5.4"
   }
 }
