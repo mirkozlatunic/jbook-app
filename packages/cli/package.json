@@ -1,6 +1,6 @@
 {
   "name": "jsnote-zlm",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnote-zlm/local-client": "^2.0.0"
+    "@jsnote-zlm/local-client": "^3.0.0"
   },
   "devDependencies": {
-    "@jsnote-zlm/local-api": "^2.0.0",
+    "@jsnote-zlm/local-api": "^3.0.0",
     "@types/node": "^22.5.0",
     "commander": "^12.1.0",
     "esbuild": "0.8.26",
