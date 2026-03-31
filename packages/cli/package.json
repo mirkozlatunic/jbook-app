@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
-    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" --external:jsbook-zlm-local-api --banner:js=\\\"#!/usr/bin/env node\\\""
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" --external:jsbook-zlm-local-api --banner:js='#!/usr/bin/env node'"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +26,5 @@
     "jsbook-zlm-local-api": "^1.0.1",
     "typescript": "^5.9.3"
   },
-  "gitHead": "827f0b87724fd1dbbd7cdf134628445ab8ae8868"
+  "gitHead": "790e7ff9c573a99e26e96cf2dc32a4033d2de8bb"
 }
