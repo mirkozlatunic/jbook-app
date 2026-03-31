@@ -23,7 +23,7 @@ export const serve = (
     );
   } else {
     const packagePath =
-      require.resolve('@jsbook-zlm/local-client/dist/index.html');
+      require.resolve('jsbook-zlm-local-client/dist/index.html');
     app.use(express.static(path.dirname(packagePath)));
   }
 

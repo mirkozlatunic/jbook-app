@@ -1,6 +1,6 @@
 import path from 'path';
 import { Command } from 'commander';
-import { serve } from '@jsbook-zlm/local-api';
+import { serve } from 'jsbook-zlm-local-api';
 
 interface LocalApiError {
   code: string;

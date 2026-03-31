@@ -1,5 +1,5 @@
 {
-  "name": "@jsbook-zlm/local-client",
+  "name": "jsbook-zlm-local-client",
   "publishConfig": {
     "access": "public"
   },
@@ -54,5 +54,5 @@
     "typescript-eslint": "^8.48.0",
     "vite": "^7.3.1"
   },
-  "gitHead": "c3adf29bd70412396b74de9b8b2beedb92fa77d7"
+  "gitHead": "80c3ac18b97e98c83a9dec6186761a01b5258f6a"
 }
