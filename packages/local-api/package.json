@@ -27,5 +27,6 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "typescript": "^5.9.3"
-  }
+  },
+  "gitHead": "c3adf29bd70412396b74de9b8b2beedb92fa77d7"
 }

@@ -53,5 +53,6 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.48.0",
     "vite": "^7.3.1"
-  }
+  },
+  "gitHead": "c3adf29bd70412396b74de9b8b2beedb92fa77d7"
 }
