@@ -1,0 +1,29 @@
+{
+  "name": "jsbook-zlm",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsbook-zlm/local-client": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.0",
+    "esbuild": "^0.27.4",
+    "typescript": "^5.9.3",
+    "@jsbook-zlm/local-api": "^1.0.0",
+    "commander": "^14.0.3"
+  }
+}
