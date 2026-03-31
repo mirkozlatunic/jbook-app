@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
-    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" --external:jsbook-zlm-local-api"
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" --external:jsbook-zlm-local-api --banner:js=\\\"#!/usr/bin/env node\\\""
   },
   "keywords": [],
   "author": "",
